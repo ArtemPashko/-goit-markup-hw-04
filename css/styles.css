@@ -153,6 +153,7 @@ color:var(--second-text-color);
 padding-top: 32px;
 padding-bottom: 32px;
 fill: currentColor;
+display: flex;
 }
 
 /* main */
@@ -167,8 +168,12 @@ text-align: center;
 padding: 200px 0;
 background-color: #C4C4C4;
 background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url('../images/fon.jpg');
-
 background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+max-width: 1600px;
+height: 600px;
+margin: 0 auto;
 }
 
 .title{
@@ -313,22 +318,20 @@ margin-bottom: 16px;
     width: 44px;
     height: 44px;
     border-radius: 50%;
+    color: #AFB1B8;
     background-color: #FFFFFF;
 }
 .social-list-link:hover,
 .social-list-link:focus{
     background-color: var(--accent-color);
+    color: var(--primary-bg-color);
 }
 
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon{
-   fill: var(--primary-bg-color);
-}
 
 .social-list-icon{
     width: 20px;
     height: 20px;
-    fill: #AFB1B8;
+    fill: currentColor;
 }
 
 
@@ -338,6 +341,7 @@ list-style: none;
 
 .clients{
         text-align: center;
+        padding-top: 94px;
             padding-bottom: 94px;
 }
 
@@ -354,22 +358,19 @@ list-style: none;
             width: 170px;
             height: 92px;
             border: 1px solid #AFB1B8;
+            color: #AFB1B8;
                 border-radius: 4px;
 }
 
 .clients-list-link:hover,
 .clients-list-link:focus{
 border: 1px solid var(--accent-color);
-border-radius: 4px;
+color: var(--accent-color);
 }
 
-.clients-list-link:hover .clients-list-icon,
-.clients-list-link:focus .clients-list-icon {
-    fill: var(--accent-color);
-}
 
 .clients-list-icon{
-fill: #AFB1B8;
+fill: currentColor;
 
 }
 
